@@ -7,7 +7,7 @@
     <style>
         *
         {
-            margin: 5px;
+            margin: 0px;
             padding: 0px;
         }
         #container
@@ -15,7 +15,7 @@
             border: 2px solid red;
             margin: 0px auto;
             width: 1200px;
-            padding:15px;
+            padding:5px;
             border-radius:8px;
         }
         #container::after
@@ -27,7 +27,7 @@
             background-color: grey;
             color: white;
             width: 100%;
-            height:45px;
+            height:50px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -63,8 +63,8 @@
         {
             border-radius: 50%;
             background-color: red;
-            width: 230px;
-            height: 230px;
+            width: 235px;
+            height: 235px;
             float: left;
             margin: 25px;
         }
@@ -90,7 +90,7 @@
         {
             float: right;
             width: 48%;
-            height: 80px;
+            height: 82px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -99,7 +99,36 @@
             color: honeydew;
             margin-bottom: 10px;
         }
-        
+        #section3
+        {
+            width: 100%;
+            height: 250px;
+            margin-bottom: 10px;
+        }
+        .rect
+        {
+            height: 220px;
+            width: 275px;
+            background-color:lightseagreen;
+            margin-right: 20px;
+            float: left;
+        }
+        #section3
+        {
+            width: 100%;
+            height:80px;
+            margin-bottom: 10px;
+        }
+        #footer
+        {
+            width: 100%;
+            height: 50px;
+            background-color: lightslategrey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
     </style>
 </head>
 <body>
@@ -108,7 +137,7 @@
             Header
         </div>
         <div id="banner">
-            banner
+            Banner
         </div>
         <div id="section1">
         <p>Section-1</p>
@@ -129,10 +158,15 @@
             </div>
         </div>
         <div id="section3">
-            <div id="rect"></div>
-            <div id="rect"></div>
-            <div id="rect"></div>
-            <div id="rect"></div>
+            <p>Section-3</p>
+            <div class="rect"></div>
+            <div class="rect"></div>
+            <div class="rect"></div>
+            <div class="rect"></div>
+        </div>
+        <div id="section4">
+            <p>Section-4</p>
+            <div id="footer"> Footer</div>
         </div>
     </div>
 </body>
