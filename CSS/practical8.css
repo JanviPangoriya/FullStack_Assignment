@@ -1,0 +1,221 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    width:100%;
+    height: auto;
+
+}
+.header
+{
+    margin-bottom: 100px;
+}
+.header ul{
+    list-style: none;
+    background-color: grey;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    margin-bottom: 10px;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    display: block;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    padding: 15px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header ul li a:hover
+{
+    background-color: yellow;
+    color: black;
+}
+#banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  #banner h1{
+      color: white;
+      font-size: 75px;
+  }
+  #section1
+        {
+            height: 270px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+#circle
+    {
+            width: 250px;
+            height: 250px;
+            float: left;
+            margin: 35px;
+        }
+#circle img{
+    border-radius: 50%;
+}
+#section2 p
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#section2
+{
+    width: 100%;
+    height: 480px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#left 
+{
+    width: 50%;
+    height: 480px;
+    background-color: greenyellow;
+    overflow: hidden;
+    text-align: justify;
+    float: left;
+ 
+}
+.text
+{
+    font-size: 20px;
+    text-align: justify;
+}
+#art1
+{
+    float: right;
+    width: 48%;
+    height: 150px;
+    background-image: url(../images/pro.jpg);
+    background-repeat: none;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#art2
+{
+    float: right;
+    width: 48%;
+    height: 150px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#art3{
+    float: right;
+    width: 48%;
+    height: 150px;
+    background-image: url(../images/proje.jpg);
+    background-repeat: none;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#section3
+{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.rect
+{
+    height: 220px;
+    width: 275px;
+    background-color:lightseagreen;
+    margin-right: 20px;
+    float: left;
+}
+.box
+        {
+            margin: 20px 15px;
+            padding: 15px;
+            border-radius: 6px;
+            float: left;
+            width: 20%;
+            display: block;
+            background-color: white;
+            color:black;
+        }
+.box img
+        {
+            width: 100%;
+            height: 175px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 6px;
+        }
+.box h4{
+            text-align: center;
+            margin: 0px 10px;
+        }
+.box p
+        {
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+.box a:hover
+        {
+            background-color: blue;
+        }
+.box a
+        {
+            display: block;
+            text-align: center;
+            background-color: red;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            margin: 30px auto;
+
+        }
+.box2
+        {
+            clear: both;
+        }
+#section4
+{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 100px;
+        text-align: center;
+}
+#footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: lightslategrey;
+    text-align: center;
+    font-size: 30px;
+}
