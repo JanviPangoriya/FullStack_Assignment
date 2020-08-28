@@ -333,7 +333,7 @@
       height: 300px;
     }
   .box {
-    margin-left: 120px;
+    margin-left: 70px;
     margin-bottom: 30px;
     border-radius: 5px;
     float: left;
@@ -399,3 +399,31 @@
       right: 0%;
     }
   }
+
+    @media(min-width: 1081)
+    {
+      .show-btn,.hide-btn
+      {
+        display: none;
+      }
+      .sec-1-box img {
+        float: left;
+        background-color: rgb(253, 239, 174);
+        border: 1px solid black;
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+      }
+      .box {
+        margin-left: 50px;
+        margin-bottom: 30px;
+        float: left;
+        width: 20%;
+        background-color: wheat;
+        overflow: hidden;
+      }
+    
+    }
+
