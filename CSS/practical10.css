@@ -1,0 +1,177 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header
+{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.header img{
+    width: 70px;
+    height: 70px;
+}
+.header h1{
+    color: white;
+    text-transform: uppercase;
+}
+.sidebar
+{
+    width: 20%;
+    height: 100%;
+    background-color:gray;
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    border: 2px solid black;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li{
+    border-bottom: 5px solid white;
+}
+.sidebar ul li a
+{
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    /* margin: 10px; */
+    padding: 10px;
+}
+.sidebar ul li a:hover
+{
+    border: 5px solid white;
+    background-color: red;
+    transition: .8s;
+    color: white;
+}
+a i
+{
+    margin-right: 20px;
+}
+#check
+{
+    display: none;
+}
+.showbutton,.hidebutton
+{
+    font-size: 35px;
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 50px;
+
+}
+.hidebutton
+{
+    display: none;
+}
+#check:checked~.sidebar
+{
+    left: 0%;
+}
+#check:checked~.showbutton
+{
+    display: none;
+}
+#check:checked~.content{
+    width: 80%;
+    float: right;
+    margin-left: 30px;
+    padding: 20px;
+}
+#check:checked~.hidebutton
+{
+    display: block;
+}
+.content
+{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.content p{
+    text-align: justify;
+}
+.content img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom:10px;
+
+}
+.social
+{
+  
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid 3px rgba(255, 255, 255, 0.1);
+    border-bottom: solid 3px rgba(255, 255, 255, 0.1);
+    padding: 5px 0px;
+    position: fixed;
+    bottom: 0px;
+}
+.social a
+{
+    color: white;
+    font-size: 30px;
+}
+
+.social a i:hover
+{
+    color: red;
+    transition: .6s;
+    font-size: 35px;
+    border: 5px solid white;
+    padding: 10px;
+}
+@media(max-width:700px)
+{
+    #check:checked~.sidebar
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .social
+    {
+        display: none;
+    }
+    .header h1
+    {
+        display: none;
+    }
+}
+@media(max-width:450px)
+{
+    #check:checked~.sidebar
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .social
+    {
+        display: none;
+    }
+    .header h1
+    {
+        display: none;
+    }
+    #check:checked~.sidebar ul li a i
+    {
+        display: none;
+    }
+}
