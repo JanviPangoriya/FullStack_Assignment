@@ -26,7 +26,10 @@ table{
     border-bottom-right-radius: 0;
     color: white;
 }
-
+td a:nth-child(odd)
+{
+    text-decoration: none;
+}
 .footer
 {
     caption-side: bottom;
