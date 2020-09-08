@@ -1,1 +1,98 @@
 *
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-width: 100%;
+    background-color: lightgrey;
+}
+.wrapper
+{
+    width: 600px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 60px auto;
+}
+table
+{
+    width: 100%;
+    margin: 10 auto;
+    border-collapse: collapse;
+}
+.basic{
+    background-color: #c1dcb7;
+}
+.plus
+{
+    background-color:#bad6c8;
+}
+.duluxe
+{
+    background-color: #bbd3dc;
+}
+.pro
+{
+    background-color: #d5e4bc;
+}
+.one i,.two i,.three i,.four i
+{
+    color: green;
+}
+table th,table td{
+    width: 150px;
+    padding: 8px 5px;
+    text-align: center;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+table th{
+    height: 70px;
+    color: #64548f;
+    font-size: 30px;
+}
+th i{
+    font-size: 30px;
+    color: #64548f;
+    margin-right: 5px;
+}
+tbody tr:nth-child(odd),tfoot tr:nth-child(odd)
+{
+    background-color: #edf3e2;
+}
+tfoot tr
+{
+    line-height: 50px;
+}
+a
+{
+
+    padding: 15px 25px; 
+    text-decoration:none;
+    background-color: #64548f;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    vertical-align:middle;
+}
+a:hover
+{
+    background-color: red;
+    color: black;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    transition: .5s;
+}
+caption
+{
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+tbody tr:nth-child(odd) td
+{
+    color: green;
+}
