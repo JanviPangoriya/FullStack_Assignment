@@ -344,7 +344,7 @@ i{
     width: 100%;
 }
 }
-@media(max-width:460px)
+@media(max-width:499px)
 
 {
     .main-content
@@ -372,7 +372,7 @@ footer
 }
 .about
 {
-    width: 40%;
+    width: 100%;
 }
 .sec-1 h2{
     font-size: 18px;
@@ -411,7 +411,7 @@ span{
 }
 i{
     color: grey;
-    font-size: 20px;
+    font-size: 15px;
 }
 .sec-2 
 {
@@ -454,12 +454,12 @@ i{
 }
 .sec-3 ul li{
     display: inline-block;
-    width: 40px;
-    height: 40;
-    padding: 10px;
+    width: 33px;
+    height: 33px;
+    padding: 6px;
     background-color: #424242;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .sec-3 ul li i{
     color: white;
