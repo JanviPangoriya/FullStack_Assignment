@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    outline: none;
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+#counter {
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+}
