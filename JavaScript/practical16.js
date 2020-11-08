@@ -29,7 +29,7 @@ function create(e){
     inputtext.value = "";
     }
     else{
-        alert("Hi! Input is Empty . Provide Some Text . Thank You....")
+        alert("Provide Some Text")
     }
 
 }
