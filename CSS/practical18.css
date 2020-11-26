@@ -92,7 +92,6 @@ body{
 }
 .form-control.success small
 {
-    visibility: visible;
     color: green;
 }
 .form-control.error small
