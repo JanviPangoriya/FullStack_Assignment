@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 450px;
+}
+
+.container {
+    height: 560px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#form1 {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+}
+
+#form2 {
+    position: absolute;
+    top: 100px;
+    left: 525px;
+}
+
+#form3 {
+    position: absolute;
+    top: 100px;
+    left: -525px;
+}
+
+.form-container {
+    position: relative;
+}
+
+.form-container i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.form-container small {
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    font-size: 16px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+h1 {
+    color: gray;
+    font-size: 28px;
+    text-align: center;
+    margin: 15px auto 25px;
+}
+
+input {
+    display: block;
+    padding: 15px;
+    width: 400px;
+    margin: 28px 0px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px lightslategrey solid;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+button {
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: crimson;
+    border-radius: 8px;
+    margin: 15px 20px;
+    color: white;
+    transition: .5s;
+}
+
+.step-row {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px -1px 5px -1px #777;
+    display: flex;
+    align-content: center;
+}
+
+.step-col {
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+    z-index: 1;
+    font-weight: bolder;
+}
+
+#progress {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    background-color: crimson;
+    transition: 1s;
+}
+
+#progress::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-left: 20px solid crimson;
+    top: 0px;
+    right: -20px;
+}
+
+button:hover {
+    background-color: rgba(170, 13, 13, 0.897);
+}
+
+.form-container.success input {
+    border-color: rgb(42, 207, 48);
+}
+
+.form-container.success .fa-check-circle {
+    visibility: visible;
+    color: rgb(42, 207, 48);
+}
+
+.form-container.error input {
+    border-color: red;
+}
+
+.form-container.error .fa-exclamation-circle {
+    visibility: visible;
+    color: red;
+}
+
+.form-container.error small {
+    visibility: visible;
+    color: red;
+}
